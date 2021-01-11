@@ -20,7 +20,12 @@ devtools::install_github("etiennebacher/ambiance")
 1. Define different ambiances:
 
 ```r
-define_ambiances(list(first = c("class", "textmate (default)"), c("perso", "cobalt")))
+define_ambiances(
+  list(
+    c("class", "textmate (default)"), 
+    c("perso", "cobalt")
+  )
+)
 ```
 
 2. Apply a specific theme with the name of an ambiance you defined:
