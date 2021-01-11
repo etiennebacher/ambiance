@@ -17,7 +17,7 @@ devtools::install_github("etiennebacher/ambiance")
 
 ## How to use
 
-1. Define different ambiances:
+1. Define different ambiances by creating a vector with the name of the ambiance first and then the name of the RStudio theme:
 
 ```r
 define_ambiances(
