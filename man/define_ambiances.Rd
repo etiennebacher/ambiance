@@ -19,8 +19,8 @@ This function creates a CSV file that contains a list of ambiances. The CSV file
 \dontrun{
 define_ambiances(
   list(
-    c("class", "textmate (default)"),
-    c("perso", "cobalt")
+    c("perso", "cobalt"),
+    c("class", "textmate (default)")
   )
 )
 }

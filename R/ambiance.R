@@ -1,3 +1,9 @@
+#' Switch ambiance
+#'
+#' @param context Name of an ambiance among those defined with `define_ambiances`
+#'
+#' @return Change RStudio theme
+#' @export
 ambiance <- function(context) {
 
   if (!rstudioapi::isAvailable()) {
