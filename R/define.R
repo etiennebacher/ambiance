@@ -18,10 +18,10 @@
 #' }
 define_ambiances <- function(ambiances) {
 
-  stopifnot(class(args) == "list")
+  stopifnot(class(ambiances) == "list")
 
   # Convert inputs as dataframe
-  x <- as.data.frame(args)
+  x <- as.data.frame(ambiances)
 
   z <- data.frame("", "")
   colnames(z) <- c("ambiance_name", "theme_name")
